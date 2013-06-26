@@ -84,6 +84,9 @@ class block_blog_menu extends block_base {
             return $this->content;
         }
 
+         //Removendo as seguintes opções do menu do blog: Ver todas as mensagens deste curso - Ver minhas mensagens sobre este curso -Adicionar uma entrada sobre este curso.
+        array_shift($options);
+       
         // Iterate the option types
         $menulist = array();
         foreach ($options as $types) {
