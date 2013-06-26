@@ -42,8 +42,8 @@
 .dir-rtl .course-content .section .activity .availabilityinfo,
 .dir-rtl .course-content .section .activity .contentafterlink { margin-left: 0; margin-right: 30px;}
 .section .activity .contentafterlink p { margin:.5em 0; }
-.sitetopic .section .activity:hover,
-.course-content .section .activity:hover { background-color: #EEE; }
+.sitetopic .section,
+.course-content .section  { background-color: #EEE; }
 .course-content .section-summary { border: 1px solid #DDD; margin-top: 5px; list-style: none; }
 .course-content .section-summary .section-title  { margin: 2px 5px 10px 5px; }
 .course-content .section-summary .summarytext { margin: 2px 5px 2px 5px; }
